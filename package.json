@@ -1,6 +1,6 @@
 {
 	"name": "svelte-adapter-lambda-edge",
-	"version": "0.0.17",
+	"version": "0.0.18",
 	"type": "module",
 	"exports": {
 		".": {
@@ -10,6 +10,10 @@
 	},
 	"main": "index.js",
 	"types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efess/svelte-adapter-lambda-edge.git"
+  },
 	"files": [
 		"files",
 		"index.d.ts"
@@ -23,6 +27,6 @@
 		"esbuild": "^0.12.5"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^1.0.0-next.1"
+		"@sveltejs/kit": "workspace:*"
 	}
 }
