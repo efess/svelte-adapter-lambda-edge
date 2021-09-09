@@ -32,7 +32,6 @@ export default function (options) {
         bundle: true,
 				platform: 'node',
 				target: 'es2020',
-				external: ['@sveltejs/kit/install-fetch'],
         inject: [join(files, 'shims.js')],
         platform: 'node',
       };

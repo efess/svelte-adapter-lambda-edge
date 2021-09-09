@@ -1,6 +1,6 @@
 {
 	"name": "svelte-adapter-lambda-edge",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"type": "module",
 	"exports": {
 		".": {
